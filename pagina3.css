@@ -1,0 +1,23 @@
+body{
+    /* Ajuste as propriedades abaixo para experimentar diferentes backgrounds */
+
+    /* Cor sólida como fundo */
+    /* background-color: #222; */
+
+    /* Imagem de fundo - troque a URL para testar diferentes imagens */
+    background-image: url('https://chefbob.com.br/wp-content/uploads/2021/05/2021-05-12-como-deixar-os-gatos-mais-tranquilos.jpg');
+
+    /* Configurações adicionais para o background */
+    background-repeat: no-repeat;
+    background-size: cover; /* pode mudar para contain ou auto */
+    background-position: center; /* pode usar outras posições como top, bottom, left, right */
+
+    font-family: Calibri, sans-serif;
+    color: #000000;
+    min-height: 100vh; /* para ocupar toda a tela */
+    padding: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Galeria de Vídeos - ADS</title>
+    <style>
+        body {
+            font-family: Calibri, sans-serif;
+            text-align: center;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* 3 vídeos por linha */
+            gap: 20px;
+            justify-items: center; /* centraliza cada vídeo na célula */
+            margin-top: 30px;
+        }
+
+        .video-grid iframe {
+            width: 750px;
+            height: 450px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Como Fazer um Miojo?</h1>
+    <p>Para preparar, o primeiro passo é colocar água para ferver numa panela. Quando a água estiver fervendo, coloque o macarrão dentro
+        , sem precisar quebrar. <br> Deixe cozinhar por cerca de três minutos, mexendo de vez em quando para o macarrão não grudar.
+        Depois, desligue o fogo e decida se quer escorrer a água para o miojo ficar mais sequinho, <br> ou deixar o caldo para um prato mais
+        líquido. Em seguida, abra o pacotinho de tempero e misture bem no macarrão. E pronto, seu miojo está pronto para comer!</p>
+    <a href="index.html">Ir para Home</a> <br>
+    <a href="pagina3.html">Ir para a Terceira Página</a> <br>
+    <div class="video-grid">
+        <!-- Vídeos do YouTube -->
+        <iframe src="https://www.youtube.com/embed/IQSROfoTGgc" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/0e2f_hGltSI" allowfullscreen></iframe>
+
+    </div>
+</body>
+</html>
